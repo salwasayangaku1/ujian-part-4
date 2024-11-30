@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Hafidzpedia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hafidzpedia</h1>
+        <p>Temukan pengetahuan bersamaku</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Tentang</a></li>
+            <li><a href="contact.html" class="active">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="contact">
+            <h2>Hubungi Saya</h2>
+            <p>
+                Jika Anda memiliki pertanyaan, saran, atau hanya ingin menyapa, jangan ragu untuk menghubungi saya melalui formulir di bawah ini atau media sosial!
+            </p>
+
+            <form action="submit_form.php" method="post">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" placeholder="Nama Anda" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email Anda" required>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" placeholder="Tulis pesan Anda di sini..." rows="5" required></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+
+            <h3>Media Sosial</h3>
+            <ul>
+                <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hafidzpedia | Dikembangkan dengan 💙 oleh Hafidzz</p>
+    </footer>
+</body>
+</html>
